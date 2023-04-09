@@ -1,0 +1,171 @@
+body {
+    margin: 50px 100px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* title */
+
+.title {
+    padding-left: 40px;
+}
+
+/* grid */
+
+.row {
+    height: 500px;
+    margin: 50px 0px;
+}
+
+.col {
+    padding: 0px;
+}
+
+/* navbar */
+
+.nav {
+    text-align: left;
+    flex-direction: column;
+}
+
+.unordered-list {
+    list-style: none;
+    text-align: left;
+    padding: 0px;
+    height: 50px;
+}
+
+.nav-item {
+    padding: 10px 0px;
+    font-size: 1.2rem;
+}
+
+.nav-item a {
+    color: rgb(108, 181, 204);;
+}
+
+.button-follow {
+    font-weight: bold;
+}
+
+.button-sub {
+    font-weight: bold;
+}
+
+.btn {
+    position: relative;
+    top: 130px;
+    margin: 5px 0px;
+}
+
+.button-follow {
+    width: 50%;
+    color: white;
+    font-weight: bold;
+}
+
+.button-sub {
+    width: 60%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* content */
+
+.flex-container {
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex: 1;
+    margin: 30px 80px;
+    background-color: #d1d1d1;
+    border-radius: 10px;
+}
+
+.content-container {
+    padding: 10px;
+    color: #606c76;
+}
+
+.content-1 h4 {
+    color: rgb(86, 198, 235);
+    font-weight: normal;
+}
+
+.content-2 h4 {
+    font-weight: normal;
+}
+
+.content-3 h4 {
+    font-weight: normal;
+}
+
+.content {
+    padding: 30px 0px;
+    line-height: 1.6;
+}
+
+/* footer */
+
+footer {
+    height: 80px;
+    background-color: #606c76;
+    border-radius: 10px;
+    color: white;
+}
+
+.footer-content {
+    padding: 10px 5px;
+    font-weight: bold;
+}
+
+/* Desktop/tablet landscape */
+
+@media (min-width: 960px) and (max-width: 1599px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .flex-item {
+        flex: 1;
+        margin: 30px 30px;
+        background-color: #d1d1d1;
+        border-radius: 10px;
+    }
+
+    .flex-item1 {
+        flex: 100%;
+    }
+    
+    .flex-item2 {
+        flex: 25%
+    }
+
+    .flex-item3 {
+        flex: 25%
+    }
+
+    .flex-container {
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content {
+        padding: 0% 0%;
+        margin: 0%;
+    }
+}
+
+/* Tablet Portrait */
+
+@media (min-width: 768px) and (max-width:959px) {
+    .flex-container {
+        height: 30%;
+    }
+}

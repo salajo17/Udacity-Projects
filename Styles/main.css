@@ -59,13 +59,13 @@ body {
 }
 
 .button-follow {
-    width: 50%;
+    width: 120px;
     color: white;
     font-weight: bold;
 }
 
 .button-sub {
-    width: 60%;
+    width: 150px;
 }
 
 a {
@@ -73,6 +73,18 @@ a {
 }
 
 /* content */
+
+.carousel1 {
+    height: 450px;
+}
+
+.carousel2 {
+    height: 450px;
+}
+
+.carousel3 {
+    height: 450px;
+}
 
 .flex-container {
     height: 90%;
@@ -92,22 +104,8 @@ a {
     color: #606c76;
 }
 
-.content-1 h4 {
+.content1  h4{
     color: rgb(86, 198, 235);
-    font-weight: normal;
-}
-
-.content-2 h4 {
-    font-weight: normal;
-}
-
-.content-3 h4 {
-    font-weight: normal;
-}
-
-.content {
-    padding: 30px 0px;
-    line-height: 1.6;
 }
 
 /* footer */
@@ -124,48 +122,50 @@ footer {
     font-weight: bold;
 }
 
-/* Desktop/tablet landscape */
+@media (min-width: 912px) and (max-width:1030px) {
+    .flex-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 
-@media (min-width: 960px) and (max-width: 1599px) {
-    body {
+
+    .row {
+    height: 100%;
+    margin: 50px 0px;
+}
+}
+
+@media (max-width: 912px) {
+    .grid {
+        height: 700px;
+    }
+    
+    .flex-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .content-container {
+        font-size: .8rem;
+        line-height: 1.2;
+    }
+
+    .content-heading {
+        position: relative;
+        font-size: .8rem;
+        left: 20%;
+    }
+
+    .nav-item {
         font-size: 1rem;
     }
 
-    .flex-item {
-        flex: 1;
-        margin: 30px 30px;
-        background-color: #d1d1d1;
-        border-radius: 10px;
+    .btn {
+        font-size: 10px;
+        width: auto;
     }
 
-    .flex-item1 {
-        flex: 100%;
-    }
-    
-    .flex-item2 {
-        flex: 25%
-    }
-
-    .flex-item3 {
-        flex: 25%
-    }
-
-    .flex-container {
-        height: 50%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .content {
-        padding: 0% 0%;
-        margin: 0%;
-    }
-}
-
-/* Tablet Portrait */
-
-@media (min-width: 768px) and (max-width:959px) {
-    .flex-container {
-        height: 30%;
+    .carousel-item {
+        height: 100%;
     }
 }

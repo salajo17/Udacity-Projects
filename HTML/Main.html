@@ -18,68 +18,114 @@
 <body>
     <!-- title -->
     <section>
-        <h1 class="title">Blog</h1>
+        <div class="container-fluid">
+            <h1 class="title">Blog</h1>
+        </div>
+        
     </section>
 
     <!-- navbar -->
     <section>
-        <div class="row">
-            <div class="nav col col-lg-3 col-md-3 col-sm-12">
-                <ul class="unordered-list">
-                    <li class="nav-item"><a href="">Design System</a></li>
-                    <li class="nav-item"><a href="">Link two</a></li>
-                    <li class="nav-item"><a href="">Link Three</a></li>
-                    <li class="nav-item"><a href="">Link Four</a></li>
-                </ul>
-
-                <button class="button-follow btn btn-info btn-md">
-                    FOLLOW
-                </button>
-                <button class="button-sub btn btn-outline-info btn-md">
-                    SUBSCRIBE
-                </button>
-
-            </div>
-
-            <div class="col col-lg-9 col-md-9 col-sm-12">
-                <p>This basic layout uses Miligram in tandem with CSS Grid & Flexbox</p>
-                <div class="flex-container">
-                    <div class="flex-item flex-item1">
-                        <div class="content-container content-1">
-                            <h4>Blog Post 1</h4>
-                            <p class="content">Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor 
-                            incididunt ut labore et dolore magna aliqua. Aliquam purus sit 
-                            amet luctus venenatis. Mauris in aliquam sem fringilla.</p>
-                        </div>
-                        
-                    </div>
-                    <div class="flex-item flex-item2">
-                        <div class="content-container content-2">
-                            <h4>Panel 2</h4>
-                            <p class="content">Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor 
-                            incididunt ut labore et dolore magna aliqua. Aliquam purus sit 
-                            amet luctus venenatis. Mauris in aliquam sem fringilla.</p>
-                        </div>
-                    </div>
-                    <div class="flex-item flex-item3">
-                        <div class="content-container content-3">
-                            <h4>Panel 3</h4>
-                            <p class="content">Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor 
-                            incididunt ut labore et dolore magna aliqua. Aliquam purus sit 
-                            amet luctus venenatis. Mauris in aliquam sem fringilla.</p>
-                        </div>
-                    </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="nav col col-lg-3 col-md-3 col-sm-3">
+                    <ul class="unordered-list">
+                        <li class="nav-item"><a href="">Design System</a></li>
+                        <li class="nav-item"><a href="">Link two</a></li>
+                        <li class="nav-item"><a href="">Link Three</a></li>
+                        <li class="nav-item"><a href="">Link Four</a></li>
+                    </ul>
+    
+                    <button class="button-follow btn btn-info btn-md">
+                        FOLLOW
+                    </button>
+                    <button class="button-sub btn btn-outline-info btn-md">
+                        SUBSCRIBE
+                    </button>
+    
                 </div>
-
+    
+                <!-- content -->
+                <div class="col col-lg-9 col-md-9 col-sm-9">
+                    <p class="content-heading">This basic layout uses Miligram in tandem with CSS Grid & Flexbox</p>
+    
+                    <div id="carouselExample" class="carousel slide carousel-dark">
+                        <div class="carousel-inner">
+                            <div class="carousel-item carousel1 active">
+                                <div class="flex-container">
+                                    <div class="flex-item flex-item1">
+                                        <div class="content-container content1">
+                                            <h4>Blog Post 1</h4>
+                                            <p class="content">Lorem ipsum dolor sit amet, consectetur 
+                                            adipiscing elit, sed do eiusmod tempor 
+                                            incididunt ut labore et dolore magna aliqua. Aliquam purus sit 
+                                            amet luctus venenatis. Mauris in aliquam sem fringilla.</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="flex-item flex-item2">
+                                        <div class="content-container content2">
+                                            <h4>Panel 1</h4>
+                                            <p class="content">Lorem ipsum dolor sit amet, consectetur 
+                                            adipiscing elit, sed do eiusmod tempor 
+                                            incididunt ut labore et dolore magna aliqua. Aliquam purus sit 
+                                            amet luctus venenatis. Mauris in aliquam sem fringilla.</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+    
+                            <div class="carousel-item carousel2">
+                                <div class="flex-container">
+                                    <div class="flex-item flex-item3">
+                                        <div class="content-container content3">
+                                            <h4>Blog Post 2</h4>
+                                            <p class="content">Lorem ipsum dolor sit amet, consectetur 
+                                            adipiscing elit, sed do eiusmod tempor 
+                                            incididunt ut labore et dolore magna aliqua. Aliquam purus sit 
+                                            amet luctus venenatis. Mauris in aliquam sem fringilla.</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="flex-item flex-item4">
+                                        <div class="content-container content4">
+                                            <h4>Panel 2</h4>
+                                            <p class="content">Lorem ipsum dolor sit amet, consectetur 
+                                            adipiscing elit, sed do eiusmod tempor 
+                                            incididunt ut labore et dolore magna aliqua. Aliquam purus sit 
+                                            amet luctus venenatis. Mauris in aliquam sem fringilla.</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+    
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+    
+    
+                </div>
             </div>
         </div>
+        
     </section>
 
+    <!-- footer -->
     <footer>
-        <p class="footer-content">Copyright 2019</p>
+        <div class="container-fluid">
+            <p class="footer-content">Copyright 2019</p>
+        </div>
     </footer>
 </body>
 </html>

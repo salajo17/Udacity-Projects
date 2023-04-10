@@ -1,0 +1,14 @@
+/* flex */
+.flex-container {
+    padding-left: 10px;
+    font-size: .8rem;
+    margin-top: 5px;
+}
+
+/* grid */
+.grid-container {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}

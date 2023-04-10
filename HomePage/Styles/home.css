@@ -1,28 +1,17 @@
+@import url(layout.css);
+@import url(color.css);
+
 body {
     margin: 50px 100px;
-    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* title */
-
 .title {
     padding-left: 40px;
 }
 
-/* grid */
-
-.row {
-    height: 500px;
-    margin: 50px 0px;
-}
-
-.col {
-    padding: 0px;
-}
-
 /* navbar */
-
 .nav {
     text-align: left;
     flex-direction: column;
@@ -38,10 +27,6 @@ body {
 .nav-item {
     padding: 10px 0px;
     font-size: 1.2rem;
-}
-
-.nav-item a {
-    color: rgb(108, 181, 204);;
 }
 
 .button-follow {
@@ -60,7 +45,6 @@ body {
 
 .button-follow {
     width: 120px;
-    color: white;
     font-weight: bold;
 }
 
@@ -73,7 +57,6 @@ a {
 }
 
 /* content */
-
 .carousel1 {
     height: 450px;
 }
@@ -86,35 +69,10 @@ a {
     height: 450px;
 }
 
-.flex-container {
-    height: 90%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.flex-item {
-    flex: 1;
-    margin: 30px 80px;
-    background-color: #d1d1d1;
-    border-radius: 10px;
-}
-
-.content-container {
-    padding: 10px;
-    color: #606c76;
-}
-
-.content1  h4{
-    color: rgb(86, 198, 235);
-}
-
 /* footer */
-
 footer {
     height: 80px;
-    background-color: #606c76;
     border-radius: 10px;
-    color: white;
 }
 
 .footer-content {
@@ -122,6 +80,7 @@ footer {
     font-weight: bold;
 }
 
+/* medias */
 @media (min-width: 912px) and (max-width:1030px) {
     .flex-container {
         flex-direction: column;

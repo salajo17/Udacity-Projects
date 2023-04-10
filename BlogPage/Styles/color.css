@@ -1,0 +1,28 @@
+.author-context2 {
+    border-left: 3px solid #000;
+    background-color: #d1d1d1;
+}
+
+.author-name {
+    color: rgb(125, 196, 219);
+}
+
+.back-to-blog {
+    color: rgb(125, 196, 219);
+}
+
+.code-img {
+    border-left: rgb(56, 181, 223) solid 3px;
+}
+
+footer {
+    background-color: #d1d1d1;
+}
+
+.social-icon {
+    color: rgb(125, 196, 219);
+}
+
+.social-icon:hover {
+    color: blue
+}

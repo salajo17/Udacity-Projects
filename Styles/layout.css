@@ -6,7 +6,7 @@
 }
 
 /* grid */
-.grid-container {
+.blog-grid-container {
     max-width: 1000px;
     display: grid;
     grid-template-columns: 1fr;

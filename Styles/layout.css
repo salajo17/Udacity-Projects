@@ -12,3 +12,11 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
 }
+
+/* home page */
+.card-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 182px auto;
+}
